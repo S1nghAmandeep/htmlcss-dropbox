@@ -64,6 +64,7 @@ a {
 
 .header-list {
     display: flex;
+    align-items: center;
 
 }
 
@@ -77,11 +78,12 @@ img {
 }
 
 .click-button {
-    line-height: 20px;
+    line-height: 40px;
     display: inline-block;
     background-color: #0061FF ;
-    padding: 12px;
+    padding: 0 12px;
     color: white;
+    text-align: center;
 }
 
 /* inizio sezione 1 */
