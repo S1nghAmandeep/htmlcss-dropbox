@@ -42,6 +42,7 @@ html  {
 
 .card {
     display: flex;
+    flex-wrap: wrap;
 
 }
 .card_body {
@@ -150,4 +151,32 @@ h1 {
 
 .point-item-2 {
     margin-left: 50px;
+}
+
+.col-4 {
+    flex-basis: calc((100% / 12) * 4);
+}
+
+.card-divider {
+    padding: 0 50px;
+}
+
+.buy-product {
+    text-decoration: underline;
+    color: #0061FF;
+}
+
+.collon {
+    padding: 0 25px;
+    
+}
+
+.buy-list {
+    line-height: 45px;
+}
+
+h5 {
+    border: 1px solid;
+    padding: 15px;
+    text-align: center;
 }
