@@ -31,7 +31,7 @@ html  {
 .debug [class^='col'] {
 	min-height: 100px;
 	/* padding: 10px; */
-    border: 1px dashed black;
+    /* border: 1px dashed black; */
  } 
 
 
@@ -153,13 +153,13 @@ h1 {
     margin-left: 50px;
 }
 
+/* inizio lista piano di acquisto */
+
 .col-4 {
-    flex-basis: calc((100% / 12) * 4);
+    flex-basis: calc(((100% / 12) * 4) - 50px);
 }
 
-.card-divider {
-    padding: 0 50px;
-}
+
 
 .buy-product {
     text-decoration: underline;
@@ -167,16 +167,52 @@ h1 {
 }
 
 .collon {
-    padding: 0 25px;
-    
+    margin-right: 50px;
+    margin-bottom: 40px;
+    border: 1px solid rgb(163, 163, 163);
+
 }
 
-.buy-list {
-    line-height: 45px;
+.buy-list > li {
+    margin-bottom: 30px;
 }
 
 h5 {
-    border: 1px solid;
+    border-bottom: 1px solid rgb(163, 163, 163);
     padding: 15px;
     text-align: center;
+}
+
+h3 {
+    font-size: 25px;
+    margin: 20px 0;
+}
+
+.month {
+    color: rgb(163, 163, 163);
+    display: block;
+    margin: 15px 0 55px 0;
+}
+
+.collon4 {
+    flex-grow: 1;
+
+}
+
+.card-divider {
+    padding: 20px;
+
+}
+
+.forth-card {
+    display: flex;
+    align-items: flex-start;
+}
+
+.office-button {
+    padding-left: 20px;
+}
+
+.description-team {
+    margin-top: 40px;
 }
