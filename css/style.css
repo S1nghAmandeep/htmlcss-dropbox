@@ -147,7 +147,7 @@ h1 {
 }
 
 .second-title {
-    font-size: 32px;
+    font-size: 40px;
 }
 
 .point-item-1 {
@@ -340,4 +340,32 @@ padding-top: 150px;
     display: flex;
     justify-content: flex-end;
     align-items: flex-start;
+}
+
+/* footer-sezione-1 */
+
+.footer-1 {
+    padding: 140px;
+}
+
+.footer-title {
+    margin-bottom: 50px;
+}
+
+.question {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.question > p  {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.arrow-down {
+    margin: 40px;
+    font-weight: bold;
+    font-size: 18px;
+
 }
