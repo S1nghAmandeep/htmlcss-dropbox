@@ -31,14 +31,10 @@ html  {
 .debug [class^='col'] {
 	min-height: 100px;
 	/* padding: 10px; */
-    /* border: 1px dashed black; */
+    border: 1px dashed black;
  } 
 
 
-.nav-body {
-    height: 80px;
-
-}
 
 .card {
     display: flex;
@@ -46,11 +42,11 @@ html  {
 
 }
 .card_body {
-    display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 80px;
+    /* height: 80px; */
     padding: 10px;
+    overflow: hidden;
 
 }
 
@@ -80,7 +76,7 @@ img {
 
 .click-button {
     line-height: 40px;
-    display: inline-block;
+    display: block;
     background-color: #0061FF ;
     padding: 0 12px;
     color: white;
@@ -91,8 +87,6 @@ img {
 
 .section-1 {
     height: 800px;
-    /* width: 150px; */
-    /* display: inline-block; */
     background-color: #B4D0E7 ;
 }
 
@@ -104,8 +98,20 @@ img {
     flex-basis: calc((100% / 12) * 8);
 }
 
+.col-7 {
+    flex-basis: calc((100% / 12) * 7);
+}
+
+.col-5 {
+    flex-basis: calc((100% / 12) * 5);
+}
+
 .col-4 {
     flex-basis: calc((100% / 12) * 4);
+}
+
+.col-2 {
+    flex-basis: calc((100% / 12) * 2);
 }
 
 h1 {
@@ -122,6 +128,7 @@ h1 {
 
 .hero-button {
     margin-bottom: 40px;
+    display: inline-block;
 }
 
 .hero-icon {
@@ -155,7 +162,7 @@ h1 {
 
 /* inizio lista piano di acquisto */
 
-.col-4 {
+.col--4 {
     flex-basis: calc(((100% / 12) * 4) - 50px);
 }
 
@@ -173,13 +180,17 @@ h1 {
 
 }
 
-.buy-list > li {
+.buy-list {
     margin-bottom: 30px;
+}
+
+.buy-list > * {
+    margin-bottom: 20px;
 }
 
 h5 {
     border-bottom: 1px solid rgb(163, 163, 163);
-    padding: 15px;
+    padding: 12px 0;
     text-align: center;
 }
 
@@ -194,25 +205,45 @@ h3 {
     margin: 15px 0 55px 0;
 }
 
-.collon4 {
+.collon-4 {
     flex-grow: 1;
 
 }
 
 .card-divider {
     padding: 20px;
-
+    
 }
 
 .forth-card {
     display: flex;
-    align-items: flex-start;
+    justify-content: space-between;
 }
 
 .office-button {
-    padding-left: 20px;
+    width: 255px;
+    padding-top: 20px;
 }
 
 .description-team {
     margin-top: 40px;
+}
+
+
+/* inizio sezione 3 */
+
+.section-3 {
+    padding: 120px 0;
+}
+.partner-button {
+    display: inline-block;
+    background-color: white;
+    color: black;
+    border: 1px solid rgb(163, 163, 163);
+    box-shadow: -1px 1px 1px 1px #888888;
+    margin-top: 40px;
+}
+
+.partner-text {
+    padding: 25px;
 }
