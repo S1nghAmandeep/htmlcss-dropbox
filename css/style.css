@@ -280,7 +280,7 @@ h3 {
 
 .debug [class^='brand-logo'] {
 	min-height: 100px;
-	/* padding: 10px; */
+	padding: 10px;
     border: 1px dashed black;
  } 
 
@@ -368,4 +368,48 @@ padding-top: 150px;
     font-weight: bold;
     font-size: 18px;
 
+}
+
+/* footer-sezione-2 */
+
+
+.debug [class^='footer-card'] {
+	min-height: 100px;
+	/* padding: 10px; */
+    border: 1px dashed black;
+ } 
+
+
+.footer-2 {
+    background-color: black;
+    height: 570px;
+    padding-top: 130px ;
+}
+
+.footer-card {
+    width: calc(100% / 5);
+}
+
+.title-footer-2 {
+    font-size: 22px;
+    margin-bottom: 25px;
+    display: inline-block;
+    color: white;
+}
+
+.footer-2-list > li {
+    font-size: 18px;
+    line-height: 40px;
+    color: white;
+}
+
+.language-button {
+    color: white;
+    padding: 40px 0;
+}
+
+.line {
+    color: white;
+    margin-top: 60px;
+    display: inline-block;
 }
