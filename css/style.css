@@ -246,10 +246,14 @@ h3 {
 }
 
 .partner-text {
-    padding: 25px;
+    padding: 50px;
 }
 
 /* inizio sezione 4 */
+
+.section-4 {
+    padding-bottom: 140px;
+}
 
 .title-section-4 {
     margin-bottom: 35px;
@@ -261,4 +265,12 @@ h3 {
 
 .image {
     width: 100%;
+}
+
+.user-info-text {
+    padding-top: 160px;
+}
+
+.user-info-text > h2 {
+    margin-bottom: 40px;
 }
