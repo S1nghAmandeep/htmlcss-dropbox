@@ -70,14 +70,14 @@ a {
 }
 
 img {
-    display: block;
+    /* display: block; */
     max-width: 100%;
 }
 
 .click-button {
     line-height: 40px;
     display: block;
-    background-color: #0061FF ;
+    background-color: #0061FF;
     padding: 0 12px;
     color: white;
     text-align: center;
@@ -87,7 +87,7 @@ img {
 
 .section-1 {
     height: 800px;
-    background-color: #B4D0E7 ;
+    background-color: #B4D0E7;
 }
 
 .col-12 {
@@ -163,10 +163,12 @@ h1 {
 /* inizio lista piano di acquisto */
 
 .col--4 {
-    flex-basis: calc(((100% / 12) * 4) - 50px);
+    flex-basis: calc(((100% / 12) * 4) - 25px);
 }
 
-
+.card-list {
+    justify-content: space-between;
+}
 
 .buy-product {
     text-decoration: underline;
@@ -174,7 +176,6 @@ h1 {
 }
 
 .collon {
-    margin-right: 50px;
     margin-bottom: 40px;
     border: 1px solid rgb(163, 163, 163);
 
@@ -273,4 +274,70 @@ h3 {
 
 .user-info-text > h2 {
     margin-bottom: 40px;
+}
+
+/* inizio sezione 5 */
+
+.debug [class^='brand-logo'] {
+	min-height: 100px;
+	/* padding: 10px; */
+    border: 1px dashed black;
+ } 
+
+.brand-logo {
+    width: calc(100% / 6);
+}
+
+.brand-logo-big {
+    width: calc(100% / 3);
+    height: 640px;
+}
+
+.logo-body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.uni-logo {
+    width: 320px;
+    height: 320px;
+    padding: 40px;
+    background-color: red;
+}
+
+.designit-logo {
+    width: 320px;
+    height: 320px;
+    padding: 40px;
+    background-color: rgb(61, 52, 127);
+}
+
+/* inizio sezione 6 */
+
+.section-6 {
+    height: 360px;
+    background-color: #B4D0E7;
+}
+
+.card-section-6 {
+padding-top: 150px;
+}
+
+.title-section-6 {
+    font-size: 42px;
+    color: #61082B;
+}
+
+.bottom-button {
+    background-color: white;
+    color: black;
+    display: inline-block;
+    /* margin-left: 120px; */
+}
+
+.button-card {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
 }
