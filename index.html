@@ -16,7 +16,7 @@
             <div class="card card_body">
                 <div class="col">
                     <ul class="header-list">
-                        <li class="nav-button"><img src="./img/logo-small.png" alt=""></li>
+                        <li class="nav-button"><a href="http://"><img src="./img/logo-small.png" alt=""></a></li>
                         <li class="nav-button"><a href="http://">Perché Dropbox</a></li>
                         <li class="nav-button"><a href="http://">Funzioni</a></li>
                         <li class="nav-button"><a href="http://">Piani e Prezzi</a></li>
@@ -26,7 +26,7 @@
                     <ul class="header-list">
                         <li class="nav-button"><a href="http://">Supporto</a></li>
                         <li class="nav-button"><a href="http://">Contatta l'ufficio vendite</a></li>
-                        <li class="nav-button"><a href="http://">Aceedi</a></li>
+                        <li class="nav-button"><a href="http://">Accedi</a></li>
                         <li class="nav-button"><a class="click-button" href="">Inizia</a></li>
                     </ul>
                 </div>
@@ -35,7 +35,7 @@
     </header>
 
 
-    <main class="debug">
+    <main>
 
                                  <!-- inizio sezione 1 -->
 
@@ -55,7 +55,7 @@
                     </div>
 
                     <div class="col-8">
-                        <img src="./img/jumbo.png" alt="proposta per il cliente">
+                        <figure><img src="./img/jumbo.png" alt="proposta per il cliente"></figure>
                     </div>
                 </div>
             </div>
@@ -84,7 +84,7 @@
                               <!-- inizio lista piano di acquisto -->
 
                 <div class="card">
-                    <div class="col-4 collon">
+                    <div class="col--4 collon">
                         <h5><i class="fa-solid fa-user"></i> Singolo</h5>
                         <div class="card-divider">
                             <h3>Professional</h3>
@@ -94,9 +94,14 @@
                                 <li><i class="fa-solid fa-user"></i> 1 utente</li>
                                 <li><i class="fa-solid fa-folder"></i> 5 TB di spazio di archiviazione sicuro</li>
                                 <li><i class="fa-solid fa-share-nodes"></i> Funzioni di produttività premium e condivisione file semplice e sicura</li>
-                                <li class="nav-button"><a class="click-button" href="">Prova gratis per 30 giorni</a></li>
-                                <li>oppure <a class="buy-product" href="http://">acquista ora</a></li>
-                                <li> &#8213; </li>
+                            </ul>
+                            <div class="buy-list">
+                                <a class="click-button" href="">Prova gratis per 30 giorni</a></li>
+                                <span>oppure <a class="buy-product" href="http://">acquista ora</a></span>
+                                <span> &#8213; </span>
+                            </div>
+
+                            <ul class="buy-list">   
                                 <li><strong>Punti Salienti del piano</strong></li>
                                 <li><i class="fa-solid fa-check"></i> Invia file fino a 100 GB con Dropbox Transfert</li>
                                 <li><i class="fa-solid fa-check"></i> Cartelle offline su dispositivi mobili</li>
@@ -106,7 +111,7 @@
                         
                     </div>
 
-                    <div class="col-4 collon">
+                    <div class="col--4 collon">
                         <h5><i class="fa-solid fa-users-line"></i> Team</h5>
                         <div class="card-divider">
                                 <h3>Advanxed</h3>
@@ -116,7 +121,7 @@
                                      <li><i class="fa-solid fa-user"></i> 3 o più utenti</li>
                                      <li><i class="fa-solid fa-folder"></i> Tutto lo spazio di cui ha bisogno il tuo team</li>
                                      <li><i class="fa-solid fa-share-nodes"></i> Sofisticate funzioni di controllo e per tenere al sicuro tutti i file del tuo team</li>
-                                     <li class="nav-button"><a class="click-button" href="">Prova gratis per 30 giorni</a></li>
+                                     <li><a class="click-button" href="">Prova gratis per 30 giorni</a></li>
                                      <li>oppure <a class="buy-product" href="http://">acquista ora</a></li>
                                      <li> &#8213; </li>
                                      <li><strong>Punti Salienti del piano</strong></li>
@@ -129,7 +134,7 @@
                         </div>
                     </div>
 
-                    <div class="col-4 collon">
+                    <div class="col--4 collon">
                         <h5><i class="fa-solid fa-building"></i> Azienda</h5>
                         <div class="card-divider">
                                 <h3>Enterprise</h3>
@@ -139,7 +144,7 @@
                                     <li><i class="fa-solid fa-user"></i> 10 o più utenti</li>
                                     <li><i class="fa-solid fa-folder"></i> Soluzione personallizabili per la tua azienda</li>
                                     <li><i class="fa-solid fa-share-nodes"></i> Assistenza pesonalizzata per aiutare gli amministratori in una gestione su larga scala</li>
-                                    <li class="nav-button"><a class="click-button" href="">Conttataci</a></li>
+                                    <li><a class="click-button" href="">Conttataci</a></li>
                                     <li>oppure <a class="buy-product" href="http://">acquista ora</a></li>
                                     <li> &#8213; </li>
                                     <li><strong>Punti Salienti del piano</strong></li>
@@ -150,7 +155,7 @@
                         </div>
                     </div>
                         
-                    <div class="col-4 collon collon4">
+                    <div class="col-12 collon collon-4">
                         <h5><i class="fa-solid fa-building"></i> Team</h5>
                         <div class="card-divider forth-card">
                             <div>
@@ -158,11 +163,28 @@
                                 <strong>Contatta l'uffico vendite per i prezzi</strong>
                                 <p class="description-team">Soluzioni personalizzate e supporto su misura per aiutare i professionisti IT nella gestione su qualsiasi scala.</p>
                             </div>
-                            <a class="click-button office-button" href="">Contatta l'ufficio vendite</a>
+                            <div class="office-button">
+                                <a class="click-button" href="">Contatta l'ufficio vendite</a>
+                            </div>
                         </div>
-                            
-                       
-                            
+                    </div>
+                </div>
+            </div>
+        </section>
+
+                        <!-- inizio sezione 3 -->
+        <section  class="debug section-3">
+            <div class="container-small">
+                <div class="card">
+                    <div class="col-7">
+                        <figure><img src="./img/partner.png" alt=""></figure>
+                    </div>
+                    <div class="col-5">
+                        <div class="partner-text">
+                            <h3>Entra in contatto con un partner Dropbox</h3>
+                            <p class="description-team">Trova un partner Dropbox e HelloSign di fiducia. Ottieni le soluzioni e servizi necessari per raggiungere i tuoi obiettivi aziendali, tra cui implementazione, integrazione, gestione e supporto continui.</p>
+                            <a class="click-button partner-button" href="">Trova un partner</a>
+                        </div>
                     </div>
                 </div>
             </div>
