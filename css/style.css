@@ -147,7 +147,7 @@ h1 {
 }
 
 .second-title {
-    font-size: 22px;
+    font-size: 32px;
 }
 
 .point-item-1 {
@@ -226,7 +226,8 @@ h3 {
 }
 
 .description-team {
-    margin-top: 40px;
+    margin-top: 20px;
+    font-size: 18px;
 }
 
 
@@ -246,4 +247,18 @@ h3 {
 
 .partner-text {
     padding: 25px;
+}
+
+/* inizio sezione 4 */
+
+.title-section-4 {
+    margin-bottom: 35px;
+}
+
+.card-section-4 {
+    padding: 20px;
+}
+
+.image {
+    width: 100%;
 }
