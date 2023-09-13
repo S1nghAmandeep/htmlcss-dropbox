@@ -76,11 +76,12 @@ img {
 
 .click-button {
     line-height: 40px;
-    display: block;
+    display: inline-block;
     background-color: #0061FF;
     padding: 0 12px;
     color: white;
     text-align: center;
+    white-space: nowrap;
 }
 
 /* inizio sezione 1 */
@@ -182,12 +183,18 @@ h1 {
 }
 
 .buy-list {
-    margin-bottom: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
 }
 
-.buy-list > * {
-    margin-bottom: 20px;
+.buy-list-button {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin: 25px 0 25px;
 }
+
 
 h5 {
     border-bottom: 1px solid rgb(163, 163, 163);
@@ -222,13 +229,18 @@ h3 {
 }
 
 .office-button {
-    width: 255px;
     padding-top: 20px;
 }
 
 .description-team {
     margin-top: 20px;
     font-size: 18px;
+}
+
+.list-detail {
+    display: flex;
+    gap: 10px;
+    align-items: baseline;
 }
 
 
@@ -388,6 +400,10 @@ padding-top: 150px;
 
 .footer-card {
     width: calc(100% / 5);
+}
+
+.footer-card-body {
+    justify-content: space-between;
 }
 
 .title-footer-2 {
