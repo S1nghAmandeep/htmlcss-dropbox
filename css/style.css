@@ -120,6 +120,12 @@ h1 {
     line-height: 90px;
 }
 
+.hero-card {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+
 .description-hero {
     line-height: 25px;
     font-size: 18px;
